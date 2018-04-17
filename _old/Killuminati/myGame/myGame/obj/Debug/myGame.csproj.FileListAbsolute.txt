@@ -1,0 +1,54 @@
+C:\Users\DUBASL_INFO\Desktop\Leap Motion\myGame\myGame\bin\Debug\myGame.exe.config
+C:\Users\DUBASL_INFO\Desktop\Leap Motion\myGame\myGame\bin\Debug\Leap.dll
+C:\Users\DUBASL_INFO\Desktop\Leap Motion\myGame\myGame\bin\Debug\LeapCSharp.dll
+C:\Users\DUBASL_INFO\Desktop\Leap Motion\myGame\myGame\bin\Debug\myGame.exe
+C:\Users\DUBASL_INFO\Desktop\Leap Motion\myGame\myGame\bin\Debug\myGame.pdb
+C:\Users\DUBASL_INFO\Desktop\Leap Motion\myGame\myGame\obj\Debug\myGame.csprojResolveAssemblyReference.cache
+C:\Users\DUBASL_INFO\Desktop\Leap Motion\myGame\myGame\obj\Debug\myGame.frmMyGame.resources
+C:\Users\DUBASL_INFO\Desktop\Leap Motion\myGame\myGame\obj\Debug\myGame.Properties.Resources.resources
+C:\Users\DUBASL_INFO\Desktop\Leap Motion\myGame\myGame\obj\Debug\myGame.csproj.GenerateResource.Cache
+C:\Users\DUBASL_INFO\Desktop\Leap Motion\myGame\myGame\obj\Debug\myGame.exe
+C:\Users\DUBASL_INFO\Desktop\Leap Motion\myGame\myGame\obj\Debug\myGame.pdb
+E:\École\CFC\ATAPP\Leap Motion\myGame\myGame\bin\Debug\myGame.exe.config
+E:\École\CFC\ATAPP\Leap Motion\myGame\myGame\obj\Debug\myGame.exe
+E:\École\CFC\ATAPP\Leap Motion\myGame\myGame\obj\Debug\myGame.pdb
+E:\École\CFC\ATAPP\Leap Motion\myGame\myGame\bin\Debug\Leap.dll
+E:\École\CFC\ATAPP\Leap Motion\myGame\myGame\bin\Debug\LeapCSharp.dll
+E:\École\CFC\ATAPP\Leap Motion\myGame\myGame\bin\Debug\myGame.exe
+E:\École\CFC\ATAPP\Leap Motion\myGame\myGame\bin\Debug\myGame.pdb
+E:\École\CFC\ATAPP\Leap Motion\myGame\myGame\obj\Debug\myGame.csprojResolveAssemblyReference.cache
+E:\École\CFC\ATAPP\Leap Motion\myGame\myGame\obj\Debug\myGame.frmMyGame.resources
+E:\École\CFC\ATAPP\Leap Motion\myGame\myGame\obj\Debug\myGame.Properties.Resources.resources
+E:\École\CFC\ATAPP\Leap Motion\myGame\myGame\obj\Debug\myGame.csproj.GenerateResource.Cache
+F:\CFPT\CFC\I.FA-P3B\TPI\_old\Leap Motion\myGame\myGame\bin\Debug\Leap.dll
+F:\CFPT\CFC\I.FA-P3B\TPI\_old\Leap Motion\myGame\myGame\bin\Debug\LeapCSharp.dll
+F:\CFPT\CFC\I.FA-P3B\TPI\_old\Leap Motion\myGame\myGame\bin\Debug\myGame.exe.config
+F:\CFPT\CFC\I.FA-P3B\TPI\_old\Leap Motion\myGame\myGame\bin\Debug\myGame.exe
+F:\CFPT\CFC\I.FA-P3B\TPI\_old\Leap Motion\myGame\myGame\bin\Debug\myGame.pdb
+F:\CFPT\CFC\I.FA-P3B\TPI\_old\Leap Motion\myGame\myGame\obj\Debug\myGame.csprojResolveAssemblyReference.cache
+F:\CFPT\CFC\I.FA-P3B\TPI\_old\Leap Motion\myGame\myGame\obj\Debug\myGame.frmMyGame.resources
+F:\CFPT\CFC\I.FA-P3B\TPI\_old\Leap Motion\myGame\myGame\obj\Debug\myGame.Properties.Resources.resources
+F:\CFPT\CFC\I.FA-P3B\TPI\_old\Leap Motion\myGame\myGame\obj\Debug\myGame.csproj.GenerateResource.Cache
+F:\CFPT\CFC\I.FA-P3B\TPI\_old\Leap Motion\myGame\myGame\obj\Debug\myGame.exe
+F:\CFPT\CFC\I.FA-P3B\TPI\_old\Leap Motion\myGame\myGame\obj\Debug\myGame.pdb
+F:\CFPT\CFC\I.FA-P3B\TPI\_old\Killuminati\myGame\myGame\bin\Debug\Leap.dll
+F:\CFPT\CFC\I.FA-P3B\TPI\_old\Killuminati\myGame\myGame\bin\Debug\LeapCSharp.dll
+F:\CFPT\CFC\I.FA-P3B\TPI\_old\Killuminati\myGame\myGame\bin\Debug\myGame.exe.config
+F:\CFPT\CFC\I.FA-P3B\TPI\_old\Killuminati\myGame\myGame\bin\Debug\myGame.exe
+F:\CFPT\CFC\I.FA-P3B\TPI\_old\Killuminati\myGame\myGame\bin\Debug\myGame.pdb
+F:\CFPT\CFC\I.FA-P3B\TPI\_old\Killuminati\myGame\myGame\obj\Debug\myGame.csprojResolveAssemblyReference.cache
+F:\CFPT\CFC\I.FA-P3B\TPI\_old\Killuminati\myGame\myGame\obj\Debug\myGame.frmMyGame.resources
+F:\CFPT\CFC\I.FA-P3B\TPI\_old\Killuminati\myGame\myGame\obj\Debug\myGame.Properties.Resources.resources
+F:\CFPT\CFC\I.FA-P3B\TPI\_old\Killuminati\myGame\myGame\obj\Debug\myGame.csproj.GenerateResource.Cache
+F:\CFPT\CFC\I.FA-P3B\TPI\_old\Killuminati\myGame\myGame\obj\Debug\myGame.exe
+F:\CFPT\CFC\I.FA-P3B\TPI\_old\Killuminati\myGame\myGame\obj\Debug\myGame.pdb
+E:\CFPT\CFC\I.FA-P3B\TPI\_old\Killuminati\myGame\myGame\bin\Debug\myGame.exe.config
+E:\CFPT\CFC\I.FA-P3B\TPI\_old\Killuminati\myGame\myGame\bin\Debug\myGame.exe
+E:\CFPT\CFC\I.FA-P3B\TPI\_old\Killuminati\myGame\myGame\bin\Debug\myGame.pdb
+E:\CFPT\CFC\I.FA-P3B\TPI\_old\Killuminati\myGame\myGame\obj\Debug\myGame.csprojResolveAssemblyReference.cache
+E:\CFPT\CFC\I.FA-P3B\TPI\_old\Killuminati\myGame\myGame\obj\Debug\myGame.frmMyGame.resources
+E:\CFPT\CFC\I.FA-P3B\TPI\_old\Killuminati\myGame\myGame\obj\Debug\myGame.Properties.Resources.resources
+E:\CFPT\CFC\I.FA-P3B\TPI\_old\Killuminati\myGame\myGame\obj\Debug\myGame.csproj.GenerateResource.Cache
+E:\CFPT\CFC\I.FA-P3B\TPI\_old\Killuminati\myGame\myGame\obj\Debug\myGame.csproj.CoreCompileInputs.cache
+E:\CFPT\CFC\I.FA-P3B\TPI\_old\Killuminati\myGame\myGame\obj\Debug\myGame.exe
+E:\CFPT\CFC\I.FA-P3B\TPI\_old\Killuminati\myGame\myGame\obj\Debug\myGame.pdb
