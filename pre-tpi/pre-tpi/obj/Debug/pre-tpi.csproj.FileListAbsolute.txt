@@ -1,0 +1,11 @@
+E:\CFPT\CFC\I.FA-P3B\ATTPI\pre-tpi\pre-tpi\bin\Debug\pre-tpi.exe.config
+E:\CFPT\CFC\I.FA-P3B\ATTPI\pre-tpi\pre-tpi\bin\Debug\pre-tpi.exe
+E:\CFPT\CFC\I.FA-P3B\ATTPI\pre-tpi\pre-tpi\bin\Debug\pre-tpi.pdb
+E:\CFPT\CFC\I.FA-P3B\ATTPI\pre-tpi\pre-tpi\bin\Debug\LeapCSharp.NET4.5.dll
+E:\CFPT\CFC\I.FA-P3B\ATTPI\pre-tpi\pre-tpi\obj\Debug\pre-tpi.csprojResolveAssemblyReference.cache
+E:\CFPT\CFC\I.FA-P3B\ATTPI\pre-tpi\pre-tpi\obj\Debug\pre_tpi.Properties.Resources.resources
+E:\CFPT\CFC\I.FA-P3B\ATTPI\pre-tpi\pre-tpi\obj\Debug\pre-tpi.csproj.GenerateResource.Cache
+E:\CFPT\CFC\I.FA-P3B\ATTPI\pre-tpi\pre-tpi\obj\Debug\pre-tpi.csproj.CoreCompileInputs.cache
+E:\CFPT\CFC\I.FA-P3B\ATTPI\pre-tpi\pre-tpi\obj\Debug\pre-tpi.exe
+E:\CFPT\CFC\I.FA-P3B\ATTPI\pre-tpi\pre-tpi\obj\Debug\pre-tpi.pdb
+E:\CFPT\CFC\I.FA-P3B\ATTPI\pre-tpi\pre-tpi\obj\Debug\pre_tpi.frmMain.resources
