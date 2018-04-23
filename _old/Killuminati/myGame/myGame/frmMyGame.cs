@@ -190,10 +190,5 @@ namespace myGame
             Necronomicon necronomicon = new Necronomicon(100, 100, new Point(popPosition.Next(0, Width - Properties.Resources.necronomicon.Width), popPosition.Next(0, Height - Properties.Resources.necronomicon.Height - panel1.Height - 50)));
             listeNecronomicon.Add(necronomicon);
         }
-
-        private void frmMyGame_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

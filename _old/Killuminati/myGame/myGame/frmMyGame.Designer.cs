@@ -144,7 +144,6 @@
             this.MinimizeBox = false;
             this.Name = "frmMyGame";
             this.Text = "My Game";
-            this.Load += new System.EventHandler(this.frmMyGame_Load);
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.frmMyGame_Paint);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

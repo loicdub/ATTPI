@@ -52,3 +52,13 @@ E:\CFPT\CFC\I.FA-P3B\TPI\_old\Killuminati\myGame\myGame\obj\Debug\myGame.csproj.
 E:\CFPT\CFC\I.FA-P3B\TPI\_old\Killuminati\myGame\myGame\obj\Debug\myGame.csproj.CoreCompileInputs.cache
 E:\CFPT\CFC\I.FA-P3B\TPI\_old\Killuminati\myGame\myGame\obj\Debug\myGame.exe
 E:\CFPT\CFC\I.FA-P3B\TPI\_old\Killuminati\myGame\myGame\obj\Debug\myGame.pdb
+C:\Users\dubasl_info\Desktop\ATTPI\_old\Killuminati\myGame\myGame\bin\Debug\myGame.exe.config
+C:\Users\dubasl_info\Desktop\ATTPI\_old\Killuminati\myGame\myGame\bin\Debug\myGame.exe
+C:\Users\dubasl_info\Desktop\ATTPI\_old\Killuminati\myGame\myGame\bin\Debug\myGame.pdb
+C:\Users\dubasl_info\Desktop\ATTPI\_old\Killuminati\myGame\myGame\obj\Debug\myGame.csprojResolveAssemblyReference.cache
+C:\Users\dubasl_info\Desktop\ATTPI\_old\Killuminati\myGame\myGame\obj\Debug\myGame.frmMyGame.resources
+C:\Users\dubasl_info\Desktop\ATTPI\_old\Killuminati\myGame\myGame\obj\Debug\myGame.Properties.Resources.resources
+C:\Users\dubasl_info\Desktop\ATTPI\_old\Killuminati\myGame\myGame\obj\Debug\myGame.csproj.GenerateResource.Cache
+C:\Users\dubasl_info\Desktop\ATTPI\_old\Killuminati\myGame\myGame\obj\Debug\myGame.csproj.CoreCompileInputs.cache
+C:\Users\dubasl_info\Desktop\ATTPI\_old\Killuminati\myGame\myGame\obj\Debug\myGame.exe
+C:\Users\dubasl_info\Desktop\ATTPI\_old\Killuminati\myGame\myGame\obj\Debug\myGame.pdb
