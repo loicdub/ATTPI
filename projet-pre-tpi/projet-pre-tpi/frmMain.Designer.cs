@@ -166,7 +166,7 @@
             this.lblOk.AutoSize = true;
             this.lblOk.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblOk.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lblOk.Location = new System.Drawing.Point(462, 9);
+            this.lblOk.Location = new System.Drawing.Point(487, 35);
             this.lblOk.Name = "lblOk";
             this.lblOk.Size = new System.Drawing.Size(49, 20);
             this.lblOk.TabIndex = 20;
