@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace pre_tpi
+namespace projet_pre_tpi
 {
     static class Program
     {
