@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace pre_tpi.Properties
+namespace projet_pre_tpi.Properties
 {
 
 
