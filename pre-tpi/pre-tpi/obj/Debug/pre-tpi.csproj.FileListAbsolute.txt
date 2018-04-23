@@ -9,3 +9,14 @@ E:\CFPT\CFC\I.FA-P3B\ATTPI\pre-tpi\pre-tpi\obj\Debug\pre-tpi.csproj.CoreCompileI
 E:\CFPT\CFC\I.FA-P3B\ATTPI\pre-tpi\pre-tpi\obj\Debug\pre-tpi.exe
 E:\CFPT\CFC\I.FA-P3B\ATTPI\pre-tpi\pre-tpi\obj\Debug\pre-tpi.pdb
 E:\CFPT\CFC\I.FA-P3B\ATTPI\pre-tpi\pre-tpi\obj\Debug\pre_tpi.frmMain.resources
+C:\Users\dubasl_info\Desktop\ATTPI\pre-tpi\pre-tpi\obj\Debug\pre-tpi.exe
+C:\Users\dubasl_info\Desktop\ATTPI\pre-tpi\pre-tpi\obj\Debug\pre-tpi.pdb
+C:\Users\dubasl_info\Desktop\ATTPI\pre-tpi\pre-tpi\bin\Debug\pre-tpi.exe.config
+C:\Users\dubasl_info\Desktop\ATTPI\pre-tpi\pre-tpi\bin\Debug\pre-tpi.exe
+C:\Users\dubasl_info\Desktop\ATTPI\pre-tpi\pre-tpi\bin\Debug\pre-tpi.pdb
+C:\Users\dubasl_info\Desktop\ATTPI\pre-tpi\pre-tpi\bin\Debug\LeapCSharp.NET4.5.dll
+C:\Users\dubasl_info\Desktop\ATTPI\pre-tpi\pre-tpi\obj\Debug\pre-tpi.csprojResolveAssemblyReference.cache
+C:\Users\dubasl_info\Desktop\ATTPI\pre-tpi\pre-tpi\obj\Debug\pre_tpi.frmMain.resources
+C:\Users\dubasl_info\Desktop\ATTPI\pre-tpi\pre-tpi\obj\Debug\pre_tpi.Properties.Resources.resources
+C:\Users\dubasl_info\Desktop\ATTPI\pre-tpi\pre-tpi\obj\Debug\pre-tpi.csproj.GenerateResource.Cache
+C:\Users\dubasl_info\Desktop\ATTPI\pre-tpi\pre-tpi\obj\Debug\pre-tpi.csproj.CoreCompileInputs.cache
