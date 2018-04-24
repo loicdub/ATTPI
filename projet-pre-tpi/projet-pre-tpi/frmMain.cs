@@ -12,6 +12,8 @@ namespace projet_pre_tpi
         private Controller controller = new Controller();
         List<PictureBox> fingersUser;
         List<PictureBox> fingersModel;
+        List<bool> userExtended;
+        List<bool> modelExtended;
         List<Bitmap> crossAndRound;
         Random r;
 
@@ -26,14 +28,33 @@ namespace projet_pre_tpi
             fingersUser = new List<PictureBox>();
 
             LoadPicturebox();
-            CompareFingersPosition(fingersUser, fingersModel);
+        }
+
+        void newFrameHandler(object sender, FrameEventArgs eventArgs)
+        {
+            userExtended = new List<bool>();
+
+            Frame frame = eventArgs.frame;
+            if (frame.Hands.Count > 0)
+            {
+                List<Hand> hands = frame.Hands;
+                Hand firstHand = hands[0];
+                List<Finger> fingers = firstHand.Fingers;
+                for (int i = 0; i < fingers.Count; i++)
+                {
+                    ShowUserFingersPosition(fingers[i].IsExtended, i);
+                    userExtended.Add(fingers[i].IsExtended);
+                }
+                compareUserModel();
+            }
         }
 
         public void LoadPicturebox()
         {
             fingersModel = new List<PictureBox>();
-            fingersModel.Add(pbxIndex);
+            modelExtended = new List<bool>();
             fingersModel.Add(pbxThumb);
+            fingersModel.Add(pbxIndex);
             fingersModel.Add(pbxMiddle);
             fingersModel.Add(pbxRing);
             fingersModel.Add(pbxPinky);
@@ -42,7 +63,16 @@ namespace projet_pre_tpi
 
             for (int i = 0; i < fingersModel.Count; i++)
             {
-                fingersModel[i].BackgroundImage = crossAndRound[r.Next(0, 2)];
+                int index = r.Next(0, 2);
+                fingersModel[i].BackgroundImage = crossAndRound[index];
+                if (index == 0)
+                {
+                    modelExtended.Add(false);
+                }
+                else if (index == 1)
+                {
+                    modelExtended.Add(true);
+                }
             }
         }
 
@@ -56,51 +86,60 @@ namespace projet_pre_tpi
 
             if (isExtended)
             {
-                fingersUser[type].BackgroundImage = Properties.Resources.round;
+                fingersUser[type].BackgroundImage = crossAndRound[1];
             }
             else
             {
-                fingersUser[type].BackgroundImage = Properties.Resources.cross;
+                fingersUser[type].BackgroundImage = crossAndRound[0];
             }
         }
 
-        public void CompareFingersPosition(List<PictureBox> user, List<PictureBox> model) {
-            user = fingersUser;
-            model = fingersModel;
-            bool samePos = false;
-            int cpt = 0;
+        public bool compareUserModel() {
+            bool isOk = false;
 
-            for (int i = 0; i < user.Count; i++)
+            for (int i = 0; i < userExtended.Count; i++)
             {
-                if (user[i].BackgroundImage == model[i].BackgroundImage)
+                if (userExtended[i] != modelExtended[i])
                 {
-                    cpt++;
+                    isOk = false;
+                    break;
+                }
+                else
+                {
+                    isOk = true;
                 }
             }
 
-            if (cpt == 5)
+            if (isOk)
             {
-                lblOk.Text = "Ok !";
+                lblOk.Text = "Position correcte !";
             }
             else
             {
-                lblOk.Text = "Not Ok !";
+                lblOk.Text = "Position incorrecte.";
             }
+            lblOk.Visible = true;
+
+            return isOk;
         }
 
-        void newFrameHandler(object sender, FrameEventArgs eventArgs)
+        private void btnNewModel_Click(object sender, EventArgs e)
         {
-            Frame frame = eventArgs.frame;
-            if (frame.Hands.Count > 0)
-            {
-                List<Hand> hands = frame.Hands;
-                Hand firstHand = hands[0];
-                List<Finger> fingers = firstHand.Fingers;
-                for (int i = 0; i < fingers.Count; i++)
-                {
-                    ShowUserFingersPosition(fingers[i].IsExtended, i);
-                }
-            }
+            LoadPicturebox();
+        }
+
+        private void btnCreateModel_Click(object sender, EventArgs e)
+        {
+            frmCreateModel createModel = new frmCreateModel();
+
+            createModel.ShowDialog();
+        }
+
+        private void btnLoadModel_Click(object sender, EventArgs e)
+        {
+            frmSelectPos selectPos = new frmSelectPos();
+
+            selectPos.ShowDialog();
         }
     }
 }
