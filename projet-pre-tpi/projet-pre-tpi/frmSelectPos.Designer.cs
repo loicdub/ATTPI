@@ -35,10 +35,6 @@
             // lbPos
             // 
             this.lbPos.FormattingEnabled = true;
-            this.lbPos.Items.AddRange(new object[] {
-            "test",
-            "test2",
-            "test3"});
             this.lbPos.Location = new System.Drawing.Point(12, 12);
             this.lbPos.Name = "lbPos";
             this.lbPos.Size = new System.Drawing.Size(260, 238);
@@ -70,7 +66,9 @@
             this.Name = "frmSelectPos";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
-            this.Text = "frmSelectPos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.Text = "Positions enregistrées";
+            this.Load += new System.EventHandler(this.frmSelectPos_Load);
             this.ResumeLayout(false);
 
         }

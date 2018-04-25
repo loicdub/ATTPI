@@ -48,6 +48,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FingersPosition.cs" />
     <Compile Include="frmCreateModel.cs">
       <SubType>Form</SubType>
     </Compile>
