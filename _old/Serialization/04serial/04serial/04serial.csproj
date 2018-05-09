@@ -4,16 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4453DB0C-2B24-43F9-8A50-3DA4E7E22252}</ProjectGuid>
+    <ProjectGuid>{F1ACAD6A-F713-451F-BD7D-2F408F01A827}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>projet_pre_tpi</RootNamespace>
-    <AssemblyName>projet-pre-tpi</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>_04serial</RootNamespace>
+    <AssemblyName>04serial</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>x64</PlatformTarget>
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,7 +23,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>x64</PlatformTarget>
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -32,9 +32,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="LeapCSharp.NET4.5">
-      <HintPath>..\..\LeapSDK\lib\LeapCSharp.NET4.5.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -48,35 +45,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmCreateModel.cs">
+    <Compile Include="myRagondin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmCreateModel.Designer.cs">
-      <DependentUpon>frmCreateModel.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmMain.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmMain.Designer.cs">
-      <DependentUpon>frmMain.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmSelectPos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmSelectPos.Designer.cs">
-      <DependentUpon>frmSelectPos.cs</DependentUpon>
+    <Compile Include="myRagondin.Designer.cs">
+      <DependentUpon>myRagondin.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="savedHand.cs" />
-    <EmbeddedResource Include="frmCreateModel.resx">
-      <DependentUpon>frmCreateModel.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmMain.resx">
-      <DependentUpon>frmMain.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmSelectPos.resx">
-      <DependentUpon>frmSelectPos.cs</DependentUpon>
+    <Compile Include="serializeThis.cs" />
+    <EmbeddedResource Include="myRagondin.resx">
+      <DependentUpon>myRagondin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -86,7 +65,6 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -101,14 +79,5 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\cross.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\round.png" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <PropertyGroup>
-    <PreBuildEvent>xcopy /yr "C:\Users\dubasl_info\Desktop\ATTPI\LeapSDK\lib\x64\LeapC.dll" "$(TargetDir)"</PreBuildEvent>
-  </PropertyGroup>
 </Project>

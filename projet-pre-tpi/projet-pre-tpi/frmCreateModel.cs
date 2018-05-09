@@ -25,7 +25,7 @@ namespace projet_pre_tpi
     {
         List<PictureBox> fingerPos;
         List<Bitmap> ressources;
-        FingersPosition fingers;
+        savedHand modelHand;
 
         public frmCreateModel()
         {
@@ -96,8 +96,15 @@ namespace projet_pre_tpi
         /// <param name="e"></param>
         private void btnValidate_Click(object sender, EventArgs e)
         {
-            fingers = new FingersPosition();
-            fingers.addHand(new myHand(tbxNamePos.Text, PbxToBoolean(pbxThumb), PbxToBoolean(pbxIndex), PbxToBoolean(pbxMiddle), PbxToBoolean(pbxRing), PbxToBoolean(pbxPinky)));
+            modelHand = new savedHand(tbxNamePos.Text, PbxToBoolean(pbxThumb), PbxToBoolean(pbxIndex), PbxToBoolean(pbxMiddle), PbxToBoolean(pbxRing), PbxToBoolean(pbxPinky));
+
+            string nomFichier = "fingers-position.xml";
+
+            XmlSerializer serialiseur = new XmlSerializer(typeof(savedHand));
+            StreamWriter fichier = new StreamWriter(nomFichier);
+            serialiseur.Serialize(fichier, modelHand);
+            fichier.Close();
+            this.Close();
         }
 
         /// <summary>

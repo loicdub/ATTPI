@@ -23,7 +23,8 @@ namespace projet_pre_tpi
 {
     public partial class frmSelectPos : Form
     {
-        FingersPosition deserialize;
+        savedHand loadPos;
+
         public frmSelectPos()
         {
             InitializeComponent();
@@ -40,17 +41,12 @@ namespace projet_pre_tpi
 
             if (File.Exists(nomFichier))
             {
-                // Create an instance of stream writer
-                TextReader fichier = new StreamReader(nomFichier);
-                // Create an instance of XmlSerializer class
-                XmlSerializer serialiseur = new XmlSerializer(typeof(FingersPosition));
-                // DeSerialize from the StreamReader
-                deserialize = (FingersPosition)serialiseur.Deserialize(fichier);
-                // Close the strean reader
+                XmlSerializer serialiseur = new XmlSerializer(typeof(savedHand));
+                StreamReader fichier = new StreamReader(nomFichier);
+                loadPos = (savedHand)serialiseur.Deserialize(fichier);
                 fichier.Close();
 
-                lbPos.Items.Add(deserialize.Name);
-
+                lbPos.Items.Add(loadPos.Name);
                 LoadedPosition();
             }
         }
@@ -71,15 +67,15 @@ namespace projet_pre_tpi
         /// <returns>boolean list of fingers position</returns>
         public List<bool> LoadedPosition()
         {
-            List<bool> loadPos = new List<bool>();
+            List<bool> fingersBool = new List<bool>();
 
-            loadPos.Add(deserialize.Thumb);
-            loadPos.Add(deserialize.Index);
-            loadPos.Add(deserialize.Middle);
-            loadPos.Add(deserialize.Ring);
-            loadPos.Add(deserialize.Pinky);
+            fingersBool.Add(loadPos.Thumb);
+            fingersBool.Add(loadPos.Index);
+            fingersBool.Add(loadPos.Middle);
+            fingersBool.Add(loadPos.Ring);
+            fingersBool.Add(loadPos.Pinky);
 
-            return loadPos;
+            return fingersBool;
         }
     }
 }
