@@ -17,6 +17,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Serialization;
+using System.Xml;
 using System.IO;
 
 namespace projet_pre_tpi
@@ -25,6 +26,7 @@ namespace projet_pre_tpi
     {
         List<PictureBox> fingerPos;
         List<Bitmap> ressources;
+        
         savedHand modelHand;
 
         public frmCreateModel()
