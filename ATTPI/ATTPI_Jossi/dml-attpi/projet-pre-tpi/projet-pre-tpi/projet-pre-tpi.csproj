@@ -31,9 +31,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <ApplicationIcon>logo.ico</ApplicationIcon>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="LeapCSharp.NET4.5">
       <HintPath>..\..\LeapSDK\lib\LeapCSharp.NET4.5.dll</HintPath>
@@ -110,12 +107,8 @@
   <ItemGroup>
     <None Include="Resources\round.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="logo.ico" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PreBuildEvent>
-    </PreBuildEvent>
+    <PreBuildEvent>xcopy /yr "C:\Users\dubasl_info\Desktop\ATTPI\LeapSDK\lib\x64\LeapC.dll" "$(TargetDir)"</PreBuildEvent>
   </PropertyGroup>
 </Project>
